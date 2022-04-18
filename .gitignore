@@ -25,3 +25,5 @@ docs-dist
 .idea
 
 .env
+
+lerna-debug.log
