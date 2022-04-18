@@ -10,7 +10,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hengistchan/emo.git"
+    "url": "git@github.com:hengistchan/emoe.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "lerna": "^4.0.0",

@@ -1,6 +1,6 @@
 {
   "name": "@emoe/emoe-lib",
-  "version": "0.0.4",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "HengistChan <hengistchan@outlook.com>",
   "homepage": "",
@@ -13,8 +13,12 @@
   "files": [
     "lib"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hengistchan/emoe.git"
+  },
   "publishConfig": {
-    "registry": "https://registry.npmjs.com/"
+    "access": "public"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
