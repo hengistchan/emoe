@@ -8,6 +8,10 @@
   },
   "author": "Hengist Chan",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hengistchan/emo.git"
+  },
   "devDependencies": {
     "lerna": "^4.0.0",
     "prettier": "^2.6.2",
