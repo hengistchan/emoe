@@ -4,7 +4,6 @@ node_modules
 /package
 yarn-error.log
 .vercel_build_output
-build
 dist
 
 /yarn-error.log

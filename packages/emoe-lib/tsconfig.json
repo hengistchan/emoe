@@ -1,0 +1,29 @@
+{
+  "include": [
+    "src",
+    "types.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "module": "esnext",
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
+    "importHelpers": true,
+    "declaration": true,
+    "sourceMap": true,
+    "rootDir": "./src",
+    "strict": true,
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "paths": {},
+    "outDir": "dist",
+    "target": "ESNext",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+  }
+}
