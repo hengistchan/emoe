@@ -3,20 +3,20 @@
  */
 import { ref, type Ref } from 'vue';
 
-export interface InitialStore {
+export interface EditorState {
 	// 当前点击的组件ID
 	currentActivedComponent: string | null;
 	// 当前鼠标悬停的组件ID
 	currentMouseoveredComponent: string | null;
 }
 
-const initialStore: InitialStore = {
+const initialStore: EditorState = {
 	currentActivedComponent: null,
 	currentMouseoveredComponent: null,
 };
 
-class Store {
-	constructor(public storeData: Ref<InitialStore> = ref(initialStore)) {}
+class EditorStore {
+	constructor(public state: Ref<EditorState> = ref(initialStore)) {}
 }
 
-export default Store;
+export default EditorStore;

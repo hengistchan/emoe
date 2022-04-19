@@ -5,20 +5,17 @@
   "author": "HengistChan <hengistchan@outlook.com>",
   "homepage": "",
   "license": "MIT",
-  "main": "dist/index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "build": "pnpm clean && pnpm build:esm && pnpm build:cjs",
     "build:esm": "node ./build/esbuild.esm.config.js",
     "build:cjs": "node ./build/esbuild.cjs.config.js",
     "clean": "rimraf ./dist"
   },
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
   "files": [
-    "lib"
+    "dist"
   ],
   "repository": {
     "type": "git",

@@ -1,4 +1,2 @@
-import Store, { type InitialStore } from './store';
-
-export type { InitialStore };
-export { Store };
+export { type EditorState } from './core/store';
+export { createEditor, type Editor } from './core/editor';

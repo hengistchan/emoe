@@ -12,18 +12,18 @@
       "DOM",
       "ESNext"
     ],
+    "useDefineForClassFields": true,
+    "allowSyntheticDefaultImports": true,
     "importHelpers": true,
-    "declaration": true,
-    "sourceMap": true,
-    "rootDir": "./src",
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
     "strict": true,
     "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
     "esModuleInterop": true,
-    "moduleResolution": "node",
-    "paths": {},
-    "outDir": "dist",
-    "target": "ESNext",
-    "skipLibCheck": true,
-    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "target": "ESNext"
   }
 }
